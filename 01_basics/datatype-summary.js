@@ -38,3 +38,33 @@ const myFunction = function(){
 // how to find the type of any veriable
 
 console.log(typeof bigNumber);
+
+
+
+//*****************************************************
+
+
+//Stack (Premitive), Heap (Non-Premitive) 
+
+let myYoutubename = "aditijsdhfuihfh"
+
+let anotherName =myYoutubename 
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email:"user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo =userOne
+
+userTwo.email = "hitest@google.com"
+
+console.log (userOne.email)
+console.log (userTwo.email)
+
+
+
