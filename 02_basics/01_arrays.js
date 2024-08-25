@@ -46,3 +46,5 @@ console.log(myn2);
 
 // splice includes the renge element 
 // eg line 33 here 1, 2 ,3 will be output of the array and also the orihinal array will be manipulated these elements will be remved from the original array 
+
+
