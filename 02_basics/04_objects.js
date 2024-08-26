@@ -30,7 +30,7 @@ const obj3 = {5: "a", 6: "b"}
 
 const obj4 = {...obj1, ...obj2, ...obj3}
 
-console.log(obj4);
+// console.log(obj4);
 
 const users = [
     {
@@ -51,12 +51,40 @@ const users = [
     },
 ]
 
-users[1].email
-console.log(tinderUser);
+ users[1].email
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnPropery('isLoggedIn'));
+//console.log(tinderUser.hasOwnPropery('isLoggedIn'));
+
+const course = {
+    coursename: "js in eng",
+    price:"999",
+    courseInsructor: "Aditi"
+}
+
+// cource.courseInsructor
+
+const {courseInstructor: instructor} = course
+
+//console.log(courseInstructor);
+console.log(instructor);
+
+// {
+
+//     name: "addit",
+//     coursename: "js in hindi",
+//     price: "free"
+// }
+
+const navbar = ({company}) =>{        //distructuring is being done here
+
+}
+
+navbar(company = "Adiroki")
+
+
 
